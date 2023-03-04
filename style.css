@@ -1,0 +1,51 @@
+:root{
+    --grayish-dark-blue: hsl(217, 19%, 35%);
+    --dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-blue: hsl(210, 46%, 95%);
+
+    --font-size: 0.8125rem;
+    --font-family: 'Manrope', sans-serif;
+}
+
+body {
+    margin: unset;
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    background-color: var(--light-blue);
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 30px 15px;
+    min-width: 300px;
+    background-color: #FFF;
+    border-radius: 15px;
+    max-width: 1024px;
+}
+
+.container .article-img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 16px;
+}
+
+br.desktop {
+    display: none;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
